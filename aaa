@@ -1,8 +1,8 @@
 game.Players.AshleyCold.Chatted:connect(function(message)
-        if string.sub(message,1,2) == "/e" then
+        
           loadstring(string.sub(message,4)()
           print(string.sub(message,4))
           print("raw: "..message)
         
-        end
+     
 end)
