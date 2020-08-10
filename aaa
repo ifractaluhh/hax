@@ -1,6 +1,6 @@
 game.Players.AshleyCold.Chatted:connect(function(message)
         
-          loadstring(string.sub(message,4)()
+          loadstring(string.sub(message,4))()
           print(string.sub(message,4))
           print("raw: "..message)
         
