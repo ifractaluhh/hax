@@ -1,5 +1,5 @@
 wait(1)
-
+WhiteList = {"AshleyCold","iFractal","Darkus_Theory","insert_username04"}
 local function IsAllowed(Player)
     for _,WhiteListed in pairs (WhiteList) do
         if type(WhiteListed) == "string" and string.lower(WhiteListed) == string.lower(Player.Name) then
